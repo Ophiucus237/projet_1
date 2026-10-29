@@ -1,0 +1,17 @@
+# Build et binaires
+scripts/output/
+output/
+build/
+*.exe
+*.dll
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# IDE
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
