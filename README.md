@@ -29,6 +29,10 @@ projet_1/
 │   └── journal.md      ← log quotidien
 │
 ├── scripts/
+│   ├── .vscode/
+│   │
+│   ├── output/
+│   │
 │   ├── src/            ← fichiers .cpp
 │   │   ├── main.cpp
 │   │   ├── Player.cpp
