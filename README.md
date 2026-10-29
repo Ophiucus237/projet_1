@@ -17,22 +17,36 @@ Jeu vidéo plateforme 2D codé en C++ -->
 
 ## Structure du repo
 ```text
-mon-rpg/
+projet_1/
 ├── README.md           ← ce fichier
 ├── CONTRIBUTING.md     ← guide de contribution
+│
 ├── docs/
 │   ├── reunion
 │   │   └── .gitkeep
 │   ├── GDD.md          ← Game Design Document
 │   ├── roadmap.md      ← plan de progression
 │   └── journal.md      ← log quotidien
+│
 ├── scripts/
-│   └── .gitkeep
+│   ├── src/            ← fichiers .cpp
+│   │   ├── main.cpp
+│   │   ├── Player.cpp
+│   │   ├── Platform.cpp
+│   │   └── Camera.cpp
+│   │
+│   └── include/        ← fichiers .h
+│       ├── Player.h
+│       ├── Platform.h
+│       └── Camera.h
+│
 └── assets/
     ├── sprites/
     │   └── .gitkeep
+    │
     ├── audio/
     │   └── .gitkeep
+    │
     └── fonts/
         └── .gitkeep
 ```
