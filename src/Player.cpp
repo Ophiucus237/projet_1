@@ -1,4 +1,4 @@
-#include "Player.h"
+#include "../include/Player.h"
 
 Player::Player() : cube(sf::Vector2f(50.f, 50.f)), jumpKeyHeld(false), wantToJump(false) {
     cube.setFillColor(sf::Color::Blue);

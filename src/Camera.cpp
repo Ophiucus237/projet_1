@@ -1,4 +1,4 @@
-#include "Camera.h"
+#include "../include/Camera.h"
 
 Camera::Camera(sf::RenderWindow& window) {
     // On initialise la vue avec la taille de la fenêtre

@@ -1,8 +1,8 @@
 #include <SFML/Graphics.hpp>
 #include <optional>
-#include "Player.h"
-#include "Platform.h"
-#include "Camera.h"
+#include "../include/Player.h"
+#include "../include/Platform.h"
+#include "../include/Camera.h"
 
 int main() {
     sf::RenderWindow window(sf::VideoMode({600, 400}), "Prototype - Platforms & Camera");

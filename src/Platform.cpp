@@ -1,4 +1,4 @@
-#include "Platform.h"
+#include "../include/Platform.h"
 
 Platform::Platform() {
     // 1. La longue plateforme bleue de base (le sol)
